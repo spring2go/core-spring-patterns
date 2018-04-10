@@ -1,0 +1,10 @@
+package io.spring2go.corespring.abstractfactory;
+
+// µçÉÈ½Ó¿Ú
+public interface IFan {
+	
+	public void swithOn();
+	
+	public void switchOff();
+
+}
