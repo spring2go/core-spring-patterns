@@ -7,7 +7,7 @@ public class DoubleCheckLockingSingleton {
 	// 私有构造函数，避免被客户端代码使用
 	private DoubleCheckLockingSingleton() {}
 
-	public static synchronized DoubleCheckLockingSingleton getInstance() {
+	public static DoubleCheckLockingSingleton getInstance() {
 		if (INSTANCE == null) {
 			synchronized (DoubleCheckLockingSingleton.class) {
 				// 双重检查
