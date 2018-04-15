@@ -11,6 +11,7 @@ Spring核心原理和模式，波波微课
 	* [抽象工厂Abstract Factory](patterns/creation/abstract-factory)([ppt](ppts/抽象工厂.pdf))
 	* [单例Singleton](patterns/creation/singleton)([ppt](ppts/单例.pdf))
 	* [构造者Builder](patterns/creation/builder)([ppt](ppts/构造者.pdf))
+	* [流畅接口Fluent Interface](patterns/builder)([ppt](ppts/流畅接口.pdf))
 2. 核心模式
     * [依赖倒置原则，控制反转，依赖注入](patterns/general/dependency-inversion)([ppt](/ppts/DIP+IoC+DI.pdf))
 

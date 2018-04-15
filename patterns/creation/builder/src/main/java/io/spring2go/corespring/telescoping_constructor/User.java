@@ -3,12 +3,14 @@ package io.spring2go.corespring.telescoping_constructor;
 // 显微镜构造函数模式
 public class User {
 	
+	// region 私有成员
 	private String firstName;
 	private String lastName;
 	private int age;
 	private String phone;
 	private String address;
-	
+	// endregion
+
 	public User(String firstName, String lastName, int age, String phone) {
 		this.firstName = firstName;
 		this.lastName = lastName;

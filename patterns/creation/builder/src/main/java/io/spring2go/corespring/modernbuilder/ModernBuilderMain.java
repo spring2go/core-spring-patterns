@@ -26,7 +26,6 @@ public class ModernBuilderMain {
 				.build();
 		
 		System.out.println(user3);
-
 	}
 
 }

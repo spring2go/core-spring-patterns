@@ -1,5 +1,6 @@
 package io.spring2go.corespring.modernbuilder;
 
+// 流畅接口(Fluent Interface)
 public class User {
 	// 所有字段final
 	private final String firstName; // 必须

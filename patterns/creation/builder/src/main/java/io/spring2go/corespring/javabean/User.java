@@ -2,11 +2,14 @@ package io.spring2go.corespring.javabean;
 
 // JavaBeans模式
 public class User {
+	
+	//region 私有成员
 	private String firstName;
 	private String lastName;
 	private int age;
 	private String phone;
 	private String address;
+	//endregion
 	
 	public User() {}
 	

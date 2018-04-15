@@ -21,5 +21,4 @@ public class ClassicBuilderMain {
 		output = String.format("A new Phone built:\n\n%s", phoneBuilder.getPhone().toString());
 		System.out.println(output);
 	}
-
 }
