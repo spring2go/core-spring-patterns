@@ -1,6 +1,6 @@
 package io.spring2go.corespring.ioc;
 
-// ÊÂ¼şÍ¨ÖªÆ÷½Ó¿Ú
+// äº‹ä»¶é€šçŸ¥å™¨æ¥å£
 public interface INotifier {
 	public void notify(String message);
 }

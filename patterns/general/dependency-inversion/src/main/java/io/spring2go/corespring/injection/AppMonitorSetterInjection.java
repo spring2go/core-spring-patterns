@@ -4,14 +4,14 @@ import io.spring2go.corespring.ioc.EventLogWriter;
 import io.spring2go.corespring.ioc.INotifier;
 
 public class AppMonitorSetterInjection {
-	// ÊÂ¼şÍ¨ÖªÆ÷
+	// äº‹ä»¶é€šçŸ¥å™¨
 	private INotifier notifier = null;
 	
 	public void SetNotifier(INotifier notifier) {
 		this.notifier = notifier;
 	}
 	
-	// Ó¦ÓÃÓĞÎÊÌâÊ±¸Ã·½·¨±»µ÷ÓÃ
+	// åº”ç”¨æœ‰é—®é¢˜æ—¶è¯¥æ–¹æ³•è¢«è°ƒç”¨
 	public void notify(String message) {
 		notifier.notify(message);
 	}
@@ -20,9 +20,9 @@ public class AppMonitorSetterInjection {
 		EventLogWriter writer = new EventLogWriter();
 		AppMonitorSetterInjection monitor = 
 				new AppMonitorSetterInjection();
-		// ¿ÉÒÔÔÚÆäËüÀàÖĞÉèÖÃ
+		// å¯ä»¥åœ¨å…¶å®ƒç±»ä¸­è®¾ç½®
 		monitor.SetNotifier(writer);
-		// ¿ÉÒÔÔÚÆäËüÀàÖĞµ÷ÓÃ
+		// å¯ä»¥åœ¨å…¶å®ƒç±»ä¸­è°ƒç”¨
 		monitor.notify("App has a problem ...");
 	}
 }

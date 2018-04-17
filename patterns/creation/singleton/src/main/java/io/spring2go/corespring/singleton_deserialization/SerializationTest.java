@@ -18,7 +18,7 @@ public class SerializationTest {
         out.writeObject(instanceOne);
         out.close();
         
-        // 从文件反序列化到对象
+        // 浠庢枃浠跺弽搴忓垪鍖栧埌瀵硅薄
         ObjectInput in = new ObjectInputStream(new FileInputStream(
                 "filename.ser"));
         DemoSingleton instanceTwo = (DemoSingleton) in.readObject();

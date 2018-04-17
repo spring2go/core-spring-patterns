@@ -2,10 +2,10 @@ package io.spring2go.corespring.nodip;
 
 public class AppMonitorNoDIP {
 
-	// ¸ºÔğ½«ÊÂ¼şÈÕÖ¾Ğ´µ½ÈÕÖ¾ÏµÍ³
+	// è´Ÿè´£å°†äº‹ä»¶æ—¥å¿—å†™åˆ°æ—¥å¿—ç³»ç»Ÿ
 	private EventLogWriter writer = null;
 	
-	// Ó¦ÓÃÓĞÎÊÌâÊ±¸Ã·½·¨½«±»µ÷ÓÃ
+	// åº”ç”¨æœ‰é—®é¢˜æ—¶è¯¥æ–¹æ³•å°†è¢«è°ƒç”¨
 	public void notify(String message) {
 		if (writer == null) {
 			writer = new EventLogWriter();
@@ -22,7 +22,7 @@ public class AppMonitorNoDIP {
 class EventLogWriter {
 	
 	public void write(String message) {
-		// Ğ´µ½ÊÂ¼şÈÕÖ¾
+		// å†™åˆ°äº‹ä»¶æ—¥å¿—
 		System.out.println("Write to event log, message : " + message);
 	}
 }

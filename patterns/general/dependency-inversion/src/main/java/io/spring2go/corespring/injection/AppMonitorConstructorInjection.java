@@ -4,14 +4,14 @@ import io.spring2go.corespring.ioc.EventLogWriter;
 import io.spring2go.corespring.ioc.INotifier;
 
 public class AppMonitorConstructorInjection {
-	// ÊÂ¼þÍ¨ÖªÆ÷
+	// äº‹ä»¶é€šçŸ¥å™¨
 	private INotifier notifier = null;
 	
 	public AppMonitorConstructorInjection(INotifier notifier) {
 		this.notifier = notifier;
 	}
 	
-	// Ó¦ÓÃÓÐÎÊÌâÊ±¸Ã·½·¨±»µ÷ÓÃ
+	// åº”ç”¨æœ‰é—®é¢˜æ—¶è¯¥æ–¹æ³•è¢«è°ƒç”¨
 	public void notify(String message) {
 		notifier.notify(message);
 	}

@@ -4,7 +4,7 @@ public class ReflectionSingleton {
 	private static ReflectionSingleton INSTANCE;
 
     private ReflectionSingleton() {
-    	//throw new InstantiationError("不能通过反射创建单例");
+    	//throw new InstantiationError("涓嶈兘閫氳繃鍙嶅皠鍒涘缓鍗曚緥");
     }
     
 	public static synchronized ReflectionSingleton getInstance() {

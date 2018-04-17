@@ -1,13 +1,13 @@
 package io.spring2go.corespring.ioc;
 
 public class AppMonitorIOC {
-	// ÊÂ¼şÍ¨ÖªÆ÷
+	// äº‹ä»¶é€šçŸ¥å™¨
 	private INotifier notifier = null;
 	
-	// Ó¦ÓÃÓĞÎÊÌâÊ±¸Ã·½·¨±»µ÷ÓÃ
+	// åº”ç”¨æœ‰é—®é¢˜æ—¶è¯¥æ–¹æ³•è¢«è°ƒç”¨
 	public void notify(String message) {
 		if (notifier == null) {
-			// ½«³éÏó½Ó¿ÚÓ³ÉäÎª¾ßÌåÀà
+			// å°†æŠ½è±¡æ¥å£æ˜ å°„åˆ°å…·ä½“ç±»
 			notifier = new EventLogWriter();
 		}
 		notifier.notify(message);

@@ -1,6 +1,6 @@
 package io.spring2go.corespring.display;
 
-// VGA½Ó¿Ú
+// VGAæ¥å£
 public interface IVga {
 	
 	public void openVga();

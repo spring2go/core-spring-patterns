@@ -1,6 +1,6 @@
 package io.spring2go.corespring.abstractfactory;
 
-// �չ�ƽӿ�
+// 日光灯接口
 public interface ITubeLight {
 	public void swithOn();
 	

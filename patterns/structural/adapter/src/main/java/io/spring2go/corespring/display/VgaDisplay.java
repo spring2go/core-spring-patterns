@@ -1,6 +1,6 @@
 package io.spring2go.corespring.display;
 
-// 支持VGA接口显示器
+//  鏀寔VGA鎺ュ彛鐨勬樉绀哄櫒
 public class VgaDisplay implements IVga {
 
 	public void openVga() {

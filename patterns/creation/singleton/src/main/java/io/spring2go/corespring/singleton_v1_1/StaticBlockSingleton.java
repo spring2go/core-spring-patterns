@@ -1,16 +1,16 @@
 package io.spring2go.corespring.singleton_v1_1;
 
-// ¾²Ì¬¿é³õÊ¼»¯µ¥Àı
+// é™æ€åˆå§‹åŒ–å—å•ä¾‹
 public class StaticBlockSingleton {
 	private static final StaticBlockSingleton INSTANCE;
 
-	// Ë½ÓĞ¹¹Ôìº¯Êı£¬±ÜÃâ±»¿Í»§¶Ë´úÂëÊ¹ÓÃ
+	// ç§æœ‰æ„é€ å‡½æ•°ï¼Œé¿å…è¢«å®¢æˆ·ç«¯ä½¿ç”¨
 	private StaticBlockSingleton() {}
 
 	static {
 		try {
 			INSTANCE = new StaticBlockSingleton();
-		} catch (Exception e) { // Òì³£´¦Àí
+		} catch (Exception e) { // å¼‚å¸¸å¤„ç†
 			throw new RuntimeException("Uffff, i was not expecting this!", e);
 		}
 	}

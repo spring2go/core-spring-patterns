@@ -1,10 +1,10 @@
 package io.spring2go.corespring.singleton_v1;
 
-// ÌáÇ°³õÊ¼»¯µ¥Àı
+// æå‰åˆå§‹åŒ–å•ä¾‹
 public class EagerSingleton {
 	private static final EagerSingleton INSTANCE = new EagerSingleton();
 
-	// Ë½ÓĞ¹¹Ôìº¯Êı£¬±ÜÃâ±»¿Í»§¶Ë´úÂëÊ¹ÓÃ
+	// ç§æœ‰æ„é€ å‡½æ•°ï¼Œé¿å…è¢«å®¢æˆ·ç«¯ä»£ç ä½¿ç”¨
 	private EagerSingleton() {}
 
 	public static EagerSingleton getInstance() {

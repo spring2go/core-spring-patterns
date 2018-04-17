@@ -1,16 +1,16 @@
 package io.spring2go.corespring.singleton_v2_2;
 
-// Ë«ÖØ¼ì²éËø¶¨µ¥Àı
+// åŒé‡æ£€æŸ¥é”å®šå•ä¾‹
 public class DoubleCheckLockingSingleton {
 	private static volatile DoubleCheckLockingSingleton INSTANCE;
 
-	// Ë½ÓĞ¹¹Ôìº¯Êı£¬±ÜÃâ±»¿Í»§¶Ë´úÂëÊ¹ÓÃ
+	// ç§æœ‰æ„é€ å‡½æ•°ï¼Œé¿å…è¢«å®¢æˆ·ç«¯ä»£ç ä½¿ç”¨
 	private DoubleCheckLockingSingleton() {}
 
 	public static DoubleCheckLockingSingleton getInstance() {
 		if (INSTANCE == null) {
 			synchronized (DoubleCheckLockingSingleton.class) {
-				// Ë«ÖØ¼ì²é
+				// åŒé‡æ£€æŸ¥
 				if (INSTANCE == null) {
 					INSTANCE = new DoubleCheckLockingSingleton();
 				}

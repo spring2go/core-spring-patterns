@@ -9,9 +9,9 @@ public class ReflectionTest {
 		ReflectionSingleton instanceTwo = null;
 		try {
 			Constructor constructor = ReflectionSingleton.class.getDeclaredConstructor();
-			// ÏÂÃæµÄ´úÂë»á´òÆÆµ¥Àı
+			// ä¸‹é¢çš„ä»£ç ä¼šç ´åå•ä¾‹
 			constructor.setAccessible(true);
-			// ´´½¨µÚ¶ş¸öÊµÀı
+			// åˆ›å»ºç¬¬äºŒä¸ªå®ä¾‹
 			instanceTwo = (ReflectionSingleton) constructor.newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();

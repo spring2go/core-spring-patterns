@@ -1,6 +1,6 @@
 package io.spring2go.corespring.display;
 
-// VGA×ªHDMIÊÊÅäÆ÷
+// VGA2HDMIé€‚é…å™¨
 public class Vga2HdmiAdapter implements IHdmi {
 
 	private IVga vgaDisplay;
@@ -10,7 +10,7 @@ public class Vga2HdmiAdapter implements IHdmi {
 	}
 	
 	public void openHdmi() {
-		// ÊÊÅäÂß¼­
+		// é€‚é…é€»è¾‘
 		this.vgaDisplay.openVga();
 		System.out.println("Opening HDMI device");
 	}

@@ -13,7 +13,7 @@ public class DemoSingleton implements Serializable {
         return LazyHolder.INSTANCE;
     }
 
-    // 确保反序列化单例
+    // 纭繚鍙嶅簭鍒楀寲鍗曚緥
     protected Object readResolve() {
     	return getInstance();
     }

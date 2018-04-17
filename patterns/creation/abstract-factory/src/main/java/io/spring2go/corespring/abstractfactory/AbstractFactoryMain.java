@@ -4,14 +4,14 @@ public class AbstractFactoryMain {
 
 	public static void main(String[] args) {
 
-		// 国产
+		// 鍥戒骇
 		IElectricalFactory electricalFactory = new ChineseElectricalFactory();
 		
 		IFan fan = electricalFactory.createFan();
 		
 		fan.swithOn();
 		
-		// 美产
+		// 缇庝骇
 		electricalFactory = new USElectricalFactory();
 		
 		ITubeLight tubeLight = electricalFactory.createTubeLight();

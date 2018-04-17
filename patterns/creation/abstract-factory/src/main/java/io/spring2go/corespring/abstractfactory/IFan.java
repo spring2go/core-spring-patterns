@@ -1,6 +1,6 @@
 package io.spring2go.corespring.abstractfactory;
 
-// µçÉÈ½Ó¿Ú
+// ç”µæ‰‡æ¥å£
 public interface IFan {
 	
 	public void swithOn();

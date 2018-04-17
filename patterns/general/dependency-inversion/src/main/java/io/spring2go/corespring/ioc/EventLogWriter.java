@@ -3,7 +3,7 @@ package io.spring2go.corespring.ioc;
 public class EventLogWriter implements INotifier {
 
 	public void notify(String message) {
-		// 写到事件日志
+		// 鍐欏埌浜嬩欢鏃ュ織
 		System.out.println("Write to event log, message : " + message);
 	}
 

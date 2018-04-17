@@ -1,6 +1,6 @@
 package io.spring2go.corespring.singleton_v2;
 
-// ÑÓ³Ù³õÊ¼»¯µ¥Àı
+// å»¶è¿Ÿåˆå§‹åŒ–å•ä¾‹
 public class LazySingleton {
     private static LazySingleton INSTANCE;
     

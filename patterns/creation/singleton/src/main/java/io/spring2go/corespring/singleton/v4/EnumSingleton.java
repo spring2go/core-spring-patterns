@@ -1,10 +1,10 @@
 package io.spring2go.corespring.singleton.v4;
 
-// 枚举单例
+// 鏋氫妇鍗曚緥
 public enum EnumSingleton {
     INSTANCE;
  
-    // 添加单例方法
+    // 娣诲姞鍗曚緥鏂规硶
     public void method() {
         System.out.println("Singleton method called...");
     }
