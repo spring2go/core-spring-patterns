@@ -27,7 +27,7 @@ Spring核心原理和模式，波波微课
 
 名称 | 代码 | ppt | 视频 |
 ----|-----|-----|-----|
-依赖倒置原则，控制反转，依赖注入|[code](patterns/creation/ioc)|[ppt](ppts/DIP+IoC+DI.pdf)|[video](https://v.qq.com/x/page/k0629qsrpz5.html)|
+依赖倒置原则，控制反转，依赖注入|[code](patterns/general/dependency-inversion)|[ppt](ppts/DIP+IoC+DI.pdf)|[video](https://v.qq.com/x/page/k0629qsrpz5.html)|
 
 ## 波波微课公众号
 
