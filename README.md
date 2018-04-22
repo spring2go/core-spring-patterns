@@ -22,6 +22,7 @@ Spring核心原理和模式，波波微课
 ----|-----|-----|-----|
 适配器Adapter|[code](patterns/structural/adapter)|[ppt](ppts/适配器.pdf)|[video](https://v.qq.com/x/page/w0632njvzkw.html)|
 桥接器Bridge|[code](patterns/structural/bridge)|[ppt](ppts/桥接器.pdf)|[video](https://v.qq.com/x/page/h0632obkktb.html)|
+组合Composite|[code](patterns/structural/composite)|[ppt](ppts/组合模式.pdf)|[video](https://v.qq.com/x/page/t0634x9lbew.html)|
 
 ### 3. 核心模式
 
