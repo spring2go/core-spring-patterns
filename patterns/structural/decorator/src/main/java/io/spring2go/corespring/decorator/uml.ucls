@@ -23,7 +23,7 @@
   <class id="3" language="java" name="io.spring2go.corespring.decorator.PastryBase" project="Decorator" 
     file="/Decorator/src/main/java/io/spring2go/corespring/decorator/PastryBase.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="485" y="369"/>    
+    <position height="-1" width="-1" x="478" y="371"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -87,6 +87,7 @@
     <end type="TARGET" refId="1"/>  
   </realization>  
   <association id="12">    
+    <bendpoint x="779" y="101"/>    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="13" name="baseComponent"/>      
       <multiplicity id="14" minimum="0" maximum="1"/>    
