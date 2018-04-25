@@ -1,5 +1,6 @@
 package io.spring2go.corespring.facade;
 
+// 费用计算实现
 public class CostManager implements ICosting {
 
 	@Override

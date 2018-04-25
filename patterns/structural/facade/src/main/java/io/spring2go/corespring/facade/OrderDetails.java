@@ -29,7 +29,6 @@ public class OrderDetails {
 		this.cardNo = cardNo;
 	}
 
-
 	// region getters
 	public int getProductNo() {
 		return productNo;

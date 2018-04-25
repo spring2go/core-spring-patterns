@@ -1,5 +1,6 @@
 package io.spring2go.corespring.facade;
 
+// 物流实现
 public class LogisticsManager implements ILogistics {
 
 	@Override

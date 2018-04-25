@@ -27,7 +27,7 @@ public class NoFacadeMain {
 				)
 				);
 
-		// Going through various steps if payment gateway like card verification, \
+		// Going through various steps if payment gateway like card verification,
 		// charging from the card.
 		IPaymentGateway paymentGateway = new PaymentGatewayManager();
 		paymentGateway.verifyCardDetails(orderDetails.getCardNo());
