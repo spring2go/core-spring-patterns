@@ -1,6 +1,6 @@
 package io.spring2go.corespring;
 
-// ¿Í»§¶Ë
+// Client
 public class ProxyDesignPatternMain {
 
 	public static void main(String[] args) {
