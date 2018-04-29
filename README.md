@@ -27,7 +27,14 @@ Spring核心原理和模式，波波微课
 门面Facade|[code](patterns/structural/facade)|[ppt](ppts/门面模式.pdf)|[video](https://v.qq.com/x/page/m06379lgexy.html)|
 代理Proxy|[code](patterns/structural/proxy)|[ppt](ppts/代理模式.pdf)|[video](https://v.qq.com/x/page/k0637354wuw.html)|
 
-### 3. 核心模式
+
+### 3. 行为模式
+
+名称 | 代码 | ppt | 视频 |
+----|-----|-----|-----|
+职责链Chain of Responsibility|[code](patterns/behavior/chain_of_responsibility)|[ppt](ppts/职责链模式.pdf)|[video](http://v.qq.com/x/page/r0640omm9hs.html)|
+
+### 4. 核心模式
 
 名称 | 代码 | ppt | 视频 |
 ----|-----|-----|-----|
