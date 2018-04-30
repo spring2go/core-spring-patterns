@@ -33,6 +33,7 @@ Spring核心原理和模式，波波微课
 名称 | 代码 | ppt | 视频 |
 ----|-----|-----|-----|
 职责链Chain of Responsibility|[code](patterns/behavior/chain_of_responsibility)|[ppt](ppts/职责链模式.pdf)|[video](http://v.qq.com/x/page/r0640omm9hs.html)|
+命令Command|[code](patterns/behavior/command)|[ppt](ppts/命令模式.pdf)|[video](https://v.qq.com/x/page/j0641ba2m4j.html)|
 
 ### 4. 核心模式
 
