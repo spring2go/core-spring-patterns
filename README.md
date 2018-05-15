@@ -37,6 +37,7 @@ Spring核心原理和模式，波波微课
 解释器Interpreter|[code](patterns/behavior/interpreter)|[ppt](ppts/解释器模式.pdf)|[video](http://v.qq.com/x/page/t0642g9ioam.html)|
 迭代器Iterator|[code](patterns/behavior/iterator)|[ppt](ppts/迭代器模式.pdf)|[video](https://v.qq.com/x/page/a0643uhcvgn.html)|
 策略Strategy|[code](patterns/behavior/strategy)|[ppt](ppts/策略模式.pdf)|[video](http://v.qq.com/x/page/n0645457b19.html)|
+观察者Observer|[code](patterns/behavior/observer)|[ppt](ppts/观察者模式.pdf)|[video](http://v.qq.com/x/page/j0653cekdal.html)|
 
 ### 4. 核心模式
 

@@ -3,12 +3,9 @@ package io.spring2go.patterns.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-// We Chat Official Account
 public class OfficialAccount implements Subject {
 	
-	// Name of the official account
 	private String oaName;
-	// List of followers
 	private List<Observer> followers;
 
 	public OfficialAccount(String oaName) {
